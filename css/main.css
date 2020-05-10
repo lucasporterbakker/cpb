@@ -40,7 +40,7 @@
 
 /* General styles */
 body {
-	background: #212121;
+	background: RGBA(32, 33, 36, 1.00);
 	color: #fff;
 	font-size: 1em;
 	overflow: hidden;
@@ -190,18 +190,17 @@ button:focus {
 }
 
 .hero > div {
-	/* background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)), url(../img/bg3.jpg) no-repeat 50% 0; */
 	background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(../img/bg.jpg) no-repeat 50% 50%;
   -webkit-backface-visibility: hidden;
 	backface-visibility: hidden;
 }
 
-@media (max-width: 600px) {
+/* @media (max-width: 600px) {
   .hero div {
 		background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(../img/bg.jpg) no-repeat center center fixed;
 		background-size: cover;
 	}
-}
+} */
 
 .hero__back--static,
 .hero__front {
@@ -217,7 +216,7 @@ button:focus {
 	text-align: center;
 	z-index: 10;
 	padding: 15px 75px;
-	font-weight: 500;
+	font-weight: 400;
 	font-size: 16px;
 }
 
@@ -227,6 +226,7 @@ button:focus {
 
 .poem h2 {
 	font-size: 20px;
+	font-weight: 400;
 }
 
 @media (max-width: 600px) {
